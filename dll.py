@@ -16,13 +16,7 @@ class DLL:
             self.head.prev=n
         self.head=n
     
-    def insert_at_end(self,item):
-        n=Node(item)
-        temp=self.head
-        while temp.next is not None:
-            temp=temp.next
-        n.prev=temp
-        temp.next=n
+  
         
     def insert_in_between(self,item,data):
         n=Node(item)
